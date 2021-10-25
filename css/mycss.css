@@ -74,7 +74,7 @@
         margin: 10px;
     }
     .hasBox{
-        width: 99vw;
+        width: 100vw;
         background-color: rgba(255, 192, 203, 0);
         border: 0px solid red;
         padding: 20px;
@@ -83,13 +83,13 @@
         flex-direction: column;
     }
     .inputBox{
-        width: calc(99vw - 40px);
+        width: calc(100vw - 40px);
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
     .form1{
-        width: calc(99vw - 40px);
+        width: calc(100vw - 40px);
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -114,14 +114,14 @@
         padding: 5px;
     }
     .hasOutput{
-        width: calc(99vw - 40px);
+        width: calc(100vw - 40px);
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
     }
     .hasOutputBox{
         margin: 10px 5px 10px 5px;
-        width: calc(99vw - 60px);
+        width: calc(100vw - 60px);
         height: 50px;
         display: flex;
         flex-flow: wrap;
@@ -162,6 +162,7 @@
     .copybuton:hover{
         cursor: pointer;
         transform: scale(1.07);
+        background-color: rgb(109, 109, 0);
     }
   }
 
