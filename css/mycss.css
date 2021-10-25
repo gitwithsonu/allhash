@@ -262,9 +262,10 @@
         align-items: center;
     }
     .inputtext{
-        width: 300px;
+        width: 380px;
     }
     #inputText{
+        width: 350px;
         margin-left: 5px;
         display: inline-block;
     }
@@ -288,7 +289,7 @@
     .hasOutputBox{
         margin: 10px 5px 10px 5px;
         width: calc(37.25vw - 30px);
-        height: 50px;
+        height: 70px;
         display: flex;
         flex-flow: wrap;
         justify-content: space-evenly;
