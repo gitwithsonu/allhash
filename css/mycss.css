@@ -162,7 +162,7 @@
     .copybuton:hover{
         cursor: pointer;
         transform: scale(1.07);
-        background-color: rgb(109, 109, 0);
+        background-color: rgb(173, 173, 28);
     }
   }
 
