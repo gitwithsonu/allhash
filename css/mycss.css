@@ -1,130 +1,337 @@
-.hasContainer{
-    margin: auto;
-    width: 99vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgba(255, 255, 0, 0);
-    border: 0px solid red;
-}
-.banner{
-    width: 24vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgba(0, 128, 0, 0);
-    border: 0px solid red;
-}
-.githubcat{
-    margin-top: 12px;
-    margin: auto;
-    width: 75%;
-    height: 30%;
-    background-image: url('../images/project/GithubCat.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.forGithub{
-    width: 24vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.GitText{
-    margin: 10px;
-}
-.githubLink{
-    margin: auto;
-}
-.BookmarkThePage{
-    margin: 10px;
-}
-.hasBox{
-    width: 75vw;
-    height: 100vh;
-    background-color: rgba(255, 192, 203, 0);
-    border: 0px solid red;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.inputBox{
-    width: calc(75vw - 40px);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.form1{
-    width: calc(75vw - 40px);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
-.inputtext{
-    width: 300px;
-}
-#inputText{
-    margin-left: 5px;
-    display: inline-block;
-}
-.submitButton{
-    width: 120px;
-    height: 50px;
-}
-#inputSubmit{
-    display: inline-block;
-    width: 120px;
-    height: 50px;
-    font-size: 20px;
-    padding: 5px;
-}
-.hasOutput{
-    width: calc(75vw - 40px);
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-}
-.hasOutputBox{
-    margin: 5px;
-    width: calc(37.25vw - 30px);
-    height: 50px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: chartreuse;
-}
-.hasName{
-    width: 60px;
-}
-.textHash{
-    width: calc(37.25vw - 250px);
-}
-.outputOfHash{
+
+@media (max-width: 1000px) {
+
+    .copiedToClipboard{
+        padding-top: 9px;
+        padding-left: 5px;
+        position: fixed;
+        z-index: 9999999;
+        right: 30vw;
+        top: 120px;
+        width: 150px;
+        height: 50px;
+        color: white;
+        background: rgba(55, 134, 23, 0.815);
+        box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 3px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: none;
+        opacity: 1;
+    }
+    .logo{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-image: url('../images/project/logo.png');
+        background-size: cover;
+    }
+    .hasContainer{
+        margin: auto;
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgba(255, 255, 0, 0);
+        border: 0px solid red;
+    }
+    .banner{
+        width: 24vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgba(0, 128, 0, 0);
+        border: 0px solid red;
+        display: none;
+    }
+    .githubcat{
+        margin-top: 12px;
+        margin: auto;
+        width: 75%;
+        height: 30%;
+        background-image: url('../images/project/GithubCat.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .forGithub{
+        width: 24vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .GitText{
+        margin: 10px;
+    }
+    .githubLink{
+        margin: auto;
+    }
+    .BookmarkThePage{
+        margin: 10px;
+    }
+    .hasBox{
+        width: 99vw;
+        background-color: rgba(255, 192, 203, 0);
+        border: 0px solid red;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .inputBox{
+        width: calc(99vw - 40px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .form1{
+        width: calc(99vw - 40px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputtext{
+        width: 300px;
+    }
+    #inputText{
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .submitButton{
+        width: 120px;
+        height: 50px;
+    }
+    #inputSubmit{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .hasOutput{
+        width: calc(99vw - 40px);
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+    .hasOutputBox{
+        margin: 10px 5px 10px 5px;
+        width: calc(99vw - 60px);
+        height: 50px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .hasName{
+        width: 60px;
+    }
+    .textHash{
+        width: calc(99vw - 250px);
+    }
+    .outputOfHash{
+        width: calc(99vw - 250px);
+    }
+    .copyHash{
+        width: 80px;
+    }
+    .copybuton{
+        width: 67px;
+        height: 35px;
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(9, 43, 29, 0.822);
+        user-select: none;
+    }
+    .copybuton:hover{
+        cursor: pointer;
+        transform: scale(1.07);
+    }
+  }
+
+@media (min-width: 1000px) {
+    .copiedToClipboard{
+        padding-top: 9px;
+        padding-left: 5px;
+        position: fixed;
+        right: 30vw;
+        top: 120px;
+        width: 150px;
+        height: 50px;
+        color: white;
+        background: rgba(55, 134, 23, 0.815);
+        box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 3px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: none;
+        opacity: 1;
+    }
     
+    .logo{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-image: url('../images/project/logo.png');
+        background-size: cover;
+    }
+    .hasContainer{
+        margin: auto;
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgba(255, 255, 0, 0);
+        border: 0px solid red;
+    }
+    .banner{
+        width: 24vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgba(0, 128, 0, 0);
+        border: 0px solid red;
+    }
+    .githubcat{
+        margin-top: 12px;
+        margin: auto;
+        width: 75%;
+        height: 30%;
+        background-image: url('../images/project/GithubCat.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .forGithub{
+        width: 24vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .GitText{
+        margin: 10px;
+    }
+    .githubLink{
+        margin: auto;
+    }
+    .BookmarkThePage{
+        margin: 10px;
+    }
+    .hasBox{
+        width: 75vw;
+        height: 100vh;
+        background-color: rgba(255, 192, 203, 0);
+        border: 0px solid red;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .inputBox{
+        width: calc(75vw - 40px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .form1{
+        width: calc(75vw - 40px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+    .inputtext{
+        width: 300px;
+    }
+    #inputText{
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .submitButton{
+        width: 120px;
+        height: 50px;
+    }
+    #inputSubmit{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .hasOutput{
+        width: calc(75vw - 40px);
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+    .hasOutputBox{
+        margin: 10px 5px 10px 5px;
+        width: calc(37.25vw - 30px);
+        height: 50px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .hasName{
+        width: 60px;
+    }
+    .textHash{
+        width: calc(37.25vw - 250px);
+    }
+    .outputOfHash{
+        
+    }
+    .copyHash{
+        width: 80px;
+    }
+    .copybuton{
+        width: 67px;
+        height: 35px;
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(9, 43, 29, 0.822);
+        user-select: none;
+    }
+    .copybuton:hover{
+        cursor: pointer;
+        transform: scale(1.07);
+    }
+
 }
-.copyHash{
-    width: 80px;
-}
-.copybuton{
-    width: 67px;
-    height: 35px;
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    border-radius: 5px;
-    background-color: rgba(9, 43, 29, 0.822);
-}
-.copybuton:hover{
-    cursor: pointer;
-    transform: scale(1.07);
-}
+
+
+
+
+
