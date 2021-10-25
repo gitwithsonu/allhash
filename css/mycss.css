@@ -1,0 +1,130 @@
+.hasContainer{
+    margin: auto;
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 0, 0);
+    border: 0px solid red;
+}
+.banner{
+    width: 24vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(0, 128, 0, 0);
+    border: 0px solid red;
+}
+.githubcat{
+    margin-top: 12px;
+    margin: auto;
+    width: 75%;
+    height: 30%;
+    background-image: url('../images/project/GithubCat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.forGithub{
+    width: 24vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.GitText{
+    margin: 10px;
+}
+.githubLink{
+    margin: auto;
+}
+.BookmarkThePage{
+    margin: 10px;
+}
+.hasBox{
+    width: 75vw;
+    height: 100vh;
+    background-color: rgba(255, 192, 203, 0);
+    border: 0px solid red;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.inputBox{
+    width: calc(75vw - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.form1{
+    width: calc(75vw - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.inputtext{
+    width: 300px;
+}
+#inputText{
+    margin-left: 5px;
+    display: inline-block;
+}
+.submitButton{
+    width: 120px;
+    height: 50px;
+}
+#inputSubmit{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+.hasOutput{
+    width: calc(75vw - 40px);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.hasOutputBox{
+    margin: 5px;
+    width: calc(37.25vw - 30px);
+    height: 50px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: chartreuse;
+}
+.hasName{
+    width: 60px;
+}
+.textHash{
+    width: calc(37.25vw - 250px);
+}
+.outputOfHash{
+    
+}
+.copyHash{
+    width: 80px;
+}
+.copybuton{
+    width: 67px;
+    height: 35px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(9, 43, 29, 0.822);
+}
+.copybuton:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
