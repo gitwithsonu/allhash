@@ -1,1 +1,1 @@
-# [allhash.ml](https://allhash.ml)
+# [allhash.ml](https://allhash.ml) is a hashing website. 
