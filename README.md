@@ -1,1 +1,1 @@
-# allhash.github.io
+# [allhash.ml](https://allhash.ml)
